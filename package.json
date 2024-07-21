@@ -1,16 +1,19 @@
 {
-  "name": "mono-repo",
+  "name": "geeks",
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn workspace @geeks/client dev",
-    "build": "yarn workspace @geeks/client build"
+    "dev": "lerna run dev",
+    "build": "yarn workspaces run build"
   },
   "workspaces": {
     "packages": [
       "packages/**"
     ]
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "lerna": "^8.1.6"
+  }
 }
