@@ -1,12 +1,12 @@
 'use client';
 
-import { trpc } from "@/utils/trpc";
+// import { trpc } from "@/utils/trpc";
 
 export function UserList () {
-  const userQuery = trpc.userList.useQuery();
+  // const userQuery = trpc.userList.useQuery();
   return (
     <main>
-      <p>{JSON.stringify(userQuery.data || {})}</p>
+      {/* <p>{JSON.stringify(userQuery.data || {})}</p> */}
       <div>Account</div>
     </main>
   );

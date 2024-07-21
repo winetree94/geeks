@@ -2,6 +2,11 @@
   "name": "@geeks/server",
   "version": "1.0.0",
   "packageManager": "yarn@4.3.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
     "prisma:migrate": "prisma migrate dev",
@@ -11,8 +16,8 @@
   },
   "dependencies": {
     "@prisma/client": "5.17.0",
-    "@trpc/client": "^11.0.0-rc.466",
-    "@trpc/server": "^11.0.0-rc.466",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
     "cors": "^2.8.5",
     "koa": "^2.15.3",
     "koa-bodyparser": "^4.4.1",

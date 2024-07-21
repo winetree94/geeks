@@ -10,6 +10,7 @@
     "strict": true,
     "strictNullChecks": true,
     "noEmit": true,
+    "noImplicitAny": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
