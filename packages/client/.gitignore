@@ -83,3 +83,5 @@ package.tgz
 .idea
 
 coverage
+node_modules
+build

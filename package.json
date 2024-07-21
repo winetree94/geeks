@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "lerna run dev",
-    "build": "yarn workspaces run build"
+    "build": "lerna run build"
   },
   "workspaces": {
     "packages": [
