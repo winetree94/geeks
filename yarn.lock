@@ -2467,6 +2467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"build-f72840@workspace:packages/client/build":
+  version: 0.0.0-use.local
+  resolution: "build-f72840@workspace:packages/client/build"
+  languageName: unknown
+  linkType: soft
+
 "busboy@npm:1.6.0":
   version: 1.6.0
   resolution: "busboy@npm:1.6.0"
@@ -9197,6 +9203,12 @@ __metadata:
   checksum: 10c0/6005cb31df50eef8b1f3c780eb71a17925f3038a100d82f9406ac2ad1de5eb59f8e6decbdc145b3a1f8e5836e17b0c0002fb698b9fe2516b8f9f9ff602d36412
   languageName: node
   linkType: hard
+
+"types-5bfa5f@workspace:packages/client/build/types":
+  version: 0.0.0-use.local
+  resolution: "types-5bfa5f@workspace:packages/client/build/types"
+  languageName: unknown
+  linkType: soft
 
 "typescript-eslint@npm:^7.16.1":
   version: 7.16.1

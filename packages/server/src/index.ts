@@ -38,6 +38,7 @@ const appRouter = router({
       const user = await prisma.user.create({
         data: {
           email: input.name,
+          userName: input.name,
         },
       });
       return user;
